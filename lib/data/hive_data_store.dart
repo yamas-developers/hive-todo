@@ -27,3 +27,4 @@ class HiveDataStore {
     return box.listenable();
   }
 }
+
