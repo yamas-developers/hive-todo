@@ -1,0 +1,37 @@
+name: flutter_todo
+description: "Flutter project with ToDo functionality."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  hive:
+  hive_flutter:
+  intl:
+  shared_preferences:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner:
+  hive_generator:
+  flutter_launcher_icons:
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/logo.png"
+  min_sdk_android: 21
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
